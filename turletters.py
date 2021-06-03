@@ -81,7 +81,34 @@ def turtleLetter(letter,tur):
 		tur.fd(35)
 		#tur.right(180)'''
 	elif letter == "F":
-		pass
+		tur.setheading(0)
+		tur.pu()
+		tur.fd(5)
+		tur.right(90)
+		tur.fd(5)
+		tur.pd()
+		tur.fd(30)
+		tur.right(180)
+		tur.fd(30)
+		tur.right(90)
+		tur.fd(20)
+		tur.pu()
+		tur.right(180)
+		tur.fd(20)
+		tur.left(90)
+		tur.fd(15)
+		tur.left(90)
+		tur.pd()
+		tur.fd(20)
+		tur.pu()
+		tur.right(180)
+		tur.fd(20)
+		# fixes
+		tur.right(90)
+		tur.fd(20)
+		tur.right(90)
+		tur.fd(35)
+	# tur.right(180)'''
 	elif letter == "G":
 		pass
 	elif letter == "H":
@@ -139,6 +166,6 @@ if __name__ == "__main__":
 	#turtleLetter("box",tur)
 	turtleLetter("A", tur)
 	turtleLetter("E", tur)
-	turtleLetter("A", tur)
-
+	turtleLetter("F", tur)
+	turtleLetter("F", tur)
 	window.exitonclick()
