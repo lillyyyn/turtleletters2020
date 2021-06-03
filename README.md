@@ -1,6 +1,6 @@
 # turtleletters2020
 Team A fork this repo.
-Do the letters listed by your name
+Do the letters listed by your name. Use Davis' templete "A".
 
 Abril: O,Q,M,N,W
 
