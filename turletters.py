@@ -1,4 +1,4 @@
-import turtle
+import turtle, math
 # test
 
 def turtleLetter(letter,tur):
@@ -112,7 +112,34 @@ def turtleLetter(letter,tur):
 	elif letter == "G":
 		pass
 	elif letter == "H":
-		pass
+		tur.setheading(0)
+		tur.pu()
+		tur.fd(5)
+		tur.right(90)
+		tur.fd(5)
+		tur.pd()
+		tur.fd(30)
+		tur.right(180)
+		tur.fd(15)
+		tur.right(90)
+		tur.fd(20)
+		tur.left(90)
+		tur.fd(15)
+		tur.right(180)
+		tur.fd(30)
+		tur.pu()
+		tur.right(180)
+		tur.fd(15)
+		tur.left(90)
+		tur.fd(20)
+		tur.left(90)
+		tur.fd(15)
+		# fixes
+		tur.right(180)
+		tur.fd(35)
+		tur.right(90)
+		tur.fd(35)
+	# tur.right(180)'''
 	elif letter == "I":
 		pass
 	elif letter == "J":
@@ -144,7 +171,40 @@ def turtleLetter(letter,tur):
 	elif letter == "W":
 		pass
 	elif letter == "X":
-		pass
+		tur.setheading(0)
+		tur.pu()
+		tur.fd(5)
+		tur.right(90)
+		tur.fd(5)
+		tur.pd()
+		tur.left(45)
+		tur.fd(math.sqrt(1800))
+		tur.left(180)
+		tur.fd(math.sqrt(1800))
+		tur.pu()
+		tur.fd(30)
+		tur.right(45)
+		tur.pd
+		tur.fd(math.sqrt(1800))
+		tur.left(180)
+		tur.fd(math.sqrt(1800))
+		'''tur.fd(30)
+		tur.right(180)
+		tur.fd(30)
+		tur.right(90)
+		tur.fd(20)
+		tur.right(90)
+		tur.fd(30)
+		tur.right(180)
+		tur.fd(15)
+		tur.left(90)
+		tur.fd(20)
+		tur.pu()
+		# fixes
+		tur.right(90)
+		tur.fd(20)
+		tur.right(90)
+		tur.fd(35)'''
 	elif letter == "Y":
 		pass
 	elif letter == "Z":
@@ -167,5 +227,6 @@ if __name__ == "__main__":
 	turtleLetter("A", tur)
 	turtleLetter("E", tur)
 	turtleLetter("F", tur)
-	turtleLetter("F", tur)
+	turtleLetter("H", tur)
+	turtleLetter("X", tur)
 	window.exitonclick()
