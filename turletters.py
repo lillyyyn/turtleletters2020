@@ -1,6 +1,5 @@
 import turtle
-#test
-#test 2
+# test
 
 def turtleLetter(letter,tur):
 	if letter=="box":
@@ -45,7 +44,42 @@ def turtleLetter(letter,tur):
 	elif letter == "D":
 		pass
 	elif letter == "E":
-		pass
+		tur.setheading(0)
+		tur.pu()
+		tur.fd(5)
+		tur.right(90)
+		tur.fd(5)
+		tur.pd()
+		tur.fd(30)
+		tur.right(180)
+		tur.fd(30)
+		tur.right(90)
+		tur.fd(20)
+		tur.pu()
+		tur.right(180)
+		tur.fd(20)
+		tur.left(90)
+		tur.fd(15)
+		tur.left(90)
+		tur.pd()
+		tur.fd(20)
+		tur.pu()
+		tur.right(180)
+		tur.fd(20)
+		tur.left(90)
+		tur.fd(15)
+		tur.left(90)
+		tur.pd()
+		tur.fd(20)
+		tur.pu()
+		tur.right(180)
+		tur.fd(20)
+		#fixes
+		tur.right(90)
+		tur.fd(35)
+		tur.right(90)
+		tur.fd(35)
+		#tur.right(180)'''
 	elif letter == "F":
 		pass
 	elif letter == "G":
@@ -103,7 +137,8 @@ if __name__ == "__main__":
 	tur = turtle.Turtle()
 	tur.speed(1)
 	#turtleLetter("box",tur)
-	turtleLetter("A",tur)
-
+	turtleLetter("A", tur)
+	turtleLetter("E", tur)
+	turtleLetter("A", tur)
 
 	window.exitonclick()
