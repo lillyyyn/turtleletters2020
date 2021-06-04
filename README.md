@@ -4,7 +4,7 @@ Do the letters listed by your name. Use Davis' template "A".
 
 Abril: O,Q,M,N,W
 
-Dash:Y Finished: E, F, H,X,
+Dash:Finished: E,F,H,X,Y 
 
 Chloe: P,R,K,B,D
 
