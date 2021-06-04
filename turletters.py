@@ -190,12 +190,37 @@ def turtleLetter(letter,tur):
 		tur.fd(math.sqrt(1800))
 		tur.pu()
 		# fixes
-		tur.rightFi(135)
+		tur.right(135)
 		tur.fd(35)
 		tur.right(90)
 		tur.fd(35)
 	elif letter == "Y":
-		pass
+		tur.setheading(0)
+		tur.pu()
+		tur.fd(5)
+		tur.right(90)
+		tur.fd(5)
+		tur.pd()
+		tur.left(45)
+		tur.fd((math.sqrt(1800)/2))
+		tur.left(180)
+		tur.fd((math.sqrt(1800))/2)
+		tur.pu()
+		tur.right(135)
+		tur.fd(30)
+		tur.pd()
+		tur.right(135)
+		tur.fd((math.sqrt(1800))/2)
+		tur.left(45)
+		tur.fd(15)
+		tur.pu()
+		tur.right(90)
+		tur.fd(15)
+		#fixes
+		tur.right(90)
+		tur.fd(35)
+		tur.right(90)
+		tur.fd(35)
 	elif letter == "Z":
 		pass
 
@@ -213,10 +238,11 @@ if __name__ == "__main__":
 	tur = turtle.Turtle()
 	tur.speed(1)
 	#turtleLetter("box",tur)
-	turtleLetter("X", tur)
 	turtleLetter("A", tur)
 	turtleLetter("E", tur)
 	turtleLetter("F", tur)
 	turtleLetter("H", tur)
+	turtleLetter("Y", tur)
+	turtleLetter("X", tur)
 
 	window.exitonclick()
